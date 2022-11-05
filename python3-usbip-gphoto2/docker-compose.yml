@@ -1,0 +1,6 @@
+oddkms:
+	image: oddkms/usbip-gphoto2
+	environment:
+		PORT:3240
+	ports:
+		- '3240:3240'
